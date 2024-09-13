@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(11, 5, 29);
+    justify-content: space-around;
+    display: flex;
+    position: fixed;
+}
+
+.img {
+    width: 100%;
+    margin-bottom: 0.5em;
+    padding-top: 73px;
+}
+
+.logo {
+    width: 40%;
+}
+
+.login {
+    display: inline-flex; 
+    color: rgb(249, 248, 245);
+    border: white solid 1px;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 8px 13px; 
+    border-radius: 25px;
+    font-size: 0.83em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.intro h1 {
+    font-family: 'montserrat';
+    margin: 0.5em;
+    color: rgb(14, 14, 15);
+    display: block;
+    overflow-wrap: break-word;
+    font-size: 2rem;
+    line-height: 111%;
+    letter-spacing: 0.02rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.intro p {
+    color: rgb(14, 14, 15);
+    font-family: 'montserrat';
+    line-height: 145%; 
+    font-size: 0.9em;
+    margin: 1em;
+    text-align: left;
+}
+
+.knop {
+    display: inline-flex; 
+    justify-content: center; 
+    background-color: black; 
+    color: rgb(249, 248, 245);
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 13px 20px; 
+    border-radius: 25px;
+    font-size: 0.85em;
+    margin-left: 1em;
+    margin-top: 1em;
+    text-decoration: none;
+}
+
+.spotlight {
+    background-color: rgb(249, 248, 245);
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-top: 1em;
+}
+
+.spotlight h2 {
+    color: rgb(11, 5, 29); 
+    font-size: 1.7em;
+    margin: 1em;
+    margin-left: 16px;
+    font-family: 'montserrat';
+}
+
+/* .spotlight img {
+
+} */
+
+.payment h2 {
+    margin: 16px;
+    margin-top: 2em;
+    font-size: 1.7em;
+    font-family: 'montserrat';
+}
+
+.payment p {
+    margin: 1em;
+    line-height: 145%;
+    font-size: 0.9em;
+    padding-bottom: 2em;
+    font-family: 'montserrat';
+}
+
+.payment img {
+    width: 90%;
+    border-radius: 32px;
+    margin-left: 1em; 
+    margin-bottom: 1.5em;
+}
+
+.payment2 h3 {
+    margin: 16px;
+    font-size: 0.9em;  
+    font-family: 'montserrat';
+}
+
+.payment2 p {
+    margin: 1em;
+    line-height: 145%;
+    font-size: 0.8em;
+    padding-bottom: 1.5em;
+    font-family: 'montserrat';
+}
+
+.payment2 img {
+    width: 90%;
+    border-radius: 32px;
+    margin-left: 1em; 
+    margin-bottom: 1.5em;
+}
+
+.gold img {
+    width: 90%;
+    margin-left: 1em;
+    border-radius: 32px;
+}
+
+.gold h2 {
+    font-size: 0.8em;
+    font-weight: 600;
+    padding-top: 2.5em;
+    padding-bottom: 0.5em;
+    margin-left: 16px;
+    font-family: 'montserrat';
+}
+
+.gold h3 {
+    margin: 16px;
+    font-size: 1.5em;  
+    font-family: 'montserrat';
+}
+
+.gold p {
+    line-height: 145%;
+    margin: 16px;
+    font-size: 0.9em;
+    font-family: 'montserrat';
+}
+
+.gold ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: 'montserrat';
+    font-size: 0.8em;
+}
+
+.gold li {
+    margin-bottom: 10px;
+    line-height: 145%; 
+}
+
+.coupons h2 {
+    margin: 16px;
+    font-size: 1.45em; 
+    padding-top: 1em;
+    font-family: 'montserrat';
+}
+
+.coupons p {
+    line-height: 145%;
+    letter-spacing: -0.003rem;
+    margin: 16px;
+    font-size: 0.9em;
+    padding-bottom: 40px;
+    font-family: 'montserrat';
+}
+
+.winkels {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgb(230, 255, 169) ;
+    font-family: 'montserrat';
+}
+
+.winkels h2 {
+    font-size: 1.6em;
+    margin-left: 16px;
+}
+
+.winkels h3 {
+    font-size: 0.875rem;
+    margin: 16px;
+    font-weight: 500;
+}
+
+.winkels p {
+    line-height: 145%;
+    letter-spacing: -0.003rem;
+    margin: 16px;
+    font-size: 0.9em;
+}
+
+.winkels img {
+    width: 40%;
+    padding: 16px;
+}
+
+/* .pijl {
+    
+} */
+
+.betalen h2 {
+    font-size: 1.5em;
+    margin-left: 16px;
+    padding-top: 1em;
+    font-family: 'montserrat';
+}
+
+.betalen p {
+    line-height: 145%;
+    letter-spacing: -0.003rem;
+    margin: 16px;
+    padding-bottom: 3em;
+    font-size: 0.9em;
+    font-family: 'montserrat';
+}
+
+.nu {
+    clear: both;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: antiquewhite;
+    padding: 3em;
+    margin: 16px;
+    font-family: 'montserrat';
+}
+
+.nu p {
+    font-size: 0.8em;
+    padding-top: 1em;
+}
+
+.later {
+    clear: both;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: antiquewhite;
+    padding: 3em;
+    margin: 16px;
+    font-family: 'montserrat';
+}
+
+.later p {
+    font-size: 0.8em;
+    padding-top: 1em;
+}
+
+.over h2 {
+    font-size: 1.8em;
+    margin-left: 16px;
+}
+
+.over p {
+    line-height: 145%;
+    letter-spacing: -0.003rem;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-bottom: 3em;
+    font-size: 0.8em;
+    font-family: 'montserrat';
+}
+
+.verkopen {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgb(255, 168, 205);
+}
+
+.verkopen h2 {
+    font-size: 1.5em;
+    margin-left: 16px;
+    margin-bottom: 1em;
+    font-family: 'montserrat';
+}
+
+.verkopen a {
+     color: white;
+     font-family: Arial, Helvetica, sans-serif; 
+     text-decoration: none;
+     display: inline-flex; 
+     justify-content: center; 
+     background-color: black; 
+     padding: 13px 20px; 
+     border-radius: 25px;
+     font-size: 0.9em;
+     margin-left: 1em;
+     margin-top: 1em;
+}
+
+footer {
+    background-color: rgb(11, 5, 29);
+    padding-top: 2em;
+    padding-bottom: 3em;
+    color: rgb(249, 248, 245);
+    font-family: 'montserrat';
+}
+
+footer h2 {
+    font-size: 0.9em;
+    margin-left: 16px;
+    margin-bottom: 30px;
+}
+
+footer h3 {
+    font-size: 0.9em;
+    margin-left: 16px; 
+    padding-top: 50px;
+}
+
+footer p {
+    font-size: 0.9em; 
+    margin-left: 16px;
+    margin-bottom: 16px;
+    line-height: 120%;
+}
+
+footer img {
+    width: 30%;
+    margin-bottom: 2em;
+}
+
+.taal {
+    display: flex;
+    margin-left: 16px;
+    border: white solid 1px;
+    border-radius: 10px;
+
+}
+
+.taal img {
+    width: 6%;
+}
+
+
+
+
+
+
